@@ -1,0 +1,8 @@
+
+{
+  "id": "test-incident-005",
+  "title": "SQS integration test",
+  "service": "payment-service",
+  "severity": "HIGH",
+  "status": "NEW"
+}

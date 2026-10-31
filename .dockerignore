@@ -1,0 +1,7 @@
+.git/
+.aws/
+.env
+key.json
+incident-key.json
+dynamo-key.json
+*.pem
