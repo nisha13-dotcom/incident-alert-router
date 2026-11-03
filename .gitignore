@@ -44,3 +44,33 @@ dynamo-key.json
 
 # Build files
 target/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# AWS secrets
+**/key.json
+**/incident-key.json
+**/dynamo-key.json
+**/.aws/
+.env
+.env.*
+
+# Terraform generated files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+
+# Terraform logs
+crash.log
+crash.*.log
